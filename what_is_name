@@ -1,0 +1,8 @@
+def pick_firstname
+ puts "What is your first name?"
+ name = gets.chomp.to_s
+
+ case name
+ when Aimee..Cedro
+  puts "#{firstname}"
+ end

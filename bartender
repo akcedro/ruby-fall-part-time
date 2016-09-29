@@ -1,0 +1,6 @@
+def pick_drink
+ puts "What woud you like to drink?"
+ drink = gets.chomp.to_s
+
+ drink ("A Gin and Tonic")
+ end
